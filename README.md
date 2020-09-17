@@ -7,7 +7,6 @@ This portfolio is responsive to the different dimensions of devices.
 ### Technologies Used
 
 - HTML
-- CSS
 - CSS Bootstrap
 
 ## Installation
