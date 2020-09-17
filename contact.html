@@ -18,47 +18,72 @@
 
     <title>Contact</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-info">
-      <a class="navbar-brand" href="#">David Anusontarangkul</a>
+  <body class="bg-light">
+    <!-- Universal header -->
+    <header class="container-fluid mb-5">
+      <section class="row">
+        <header class="col-lg-3 col-md-3 col-sm-12">
+          <h1 class="text-white bg-info pb-2">David</h1>
+        </header>
+        <nav
+          class="col-lg-9 col-md-9 col-sm-12 navbar navbar-expand-sm mb-2 bg-white text-secondary"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
 
-     
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About &nbsp &nbsp |</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio &nbsp &nbsp |</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    
-    <section class="container-fluid">
+    <!-- Contact Me Form -->
+    <section class="container bg-white border border-light">
       <section class="row justify-content-center">
         <section class="col-12 col-sm-6 col-md-3">
-        <h1 class="text-info">Contact</h1>
-        <hr/>
-        <form>
-          <div class="form-group">
-            <label for="usr">Name:</label>
-            <input type="text" class="form-control" id="usr" placeholder="John Smith"> </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com"> </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </form>
-        <button type="button" class="btn btn-info">Submit</button>
+          <h1 class="text-info">Contact</h1>
+          <hr />
+          <form>
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="usr"
+                placeholder="John Smith"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="example@gmail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+          </form>
+          <button type="button" class="btn btn-info">Submit</button>
+        </section>
       </section>
     </section>
-    </section>
-  
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -77,7 +102,8 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer class="p-3 mb-2 bg-dark text-white fixed-bottom mb-0">
+  <!-- Universal Footer -->
+  <footer class="p-3 bg-dark text-white mt-5">
     <p class="d-flex align-items-center justify-content-center">©copyright</p>
   </footer>
 </html>
